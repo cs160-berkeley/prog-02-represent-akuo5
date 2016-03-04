@@ -15,9 +15,10 @@ See [Represent!] (https://youtu.be/qH4K2waa8sE)
 <img src="screenshots/Screen.Shot.2016-03-03.at.6.33.03.PM.png" height="200" alt="Screenshot0">
 <img src="screenshots/Screen.Shot.2016-03-03.at.6.33.10.PM.png" height="200" alt="Screenshot1">
 <img src="screenshots/Screen.Shot.2016-03-03.at.6.33.20.PM.png" height="200" alt="Screenshot2">
+
 <img src="screenshots/Screenshot_2016-03-03-18-29-25.png" height="400" alt="Screenshot3">
-<img src="screenshots/Screenshot_2016-03-03-18-30-01.png" height="200" alt="Screenshot4">
-<img src="screenshots/Screenshot_2016-03-03-18-30-10.png" height="200" alt="Screenshot5">
+<img src="screenshots/Screenshot_2016-03-03-18-30-01.png" height="400" alt="Screenshot4">
+<img src="screenshots/Screenshot_2016-03-03-18-30-10.png" height="400" alt="Screenshot5">
 
 ## Acknowledgments
 
