@@ -1,14 +1,14 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+Represent! is a mobile and smartwatch application that delivers facts to voters on the go.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Angela Kuo ([akuo5@berkeley.edu](mailto:akuo5@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Represent!] (https://youtu.be/qH4K2waa8sE)
 
 ## Screenshots
 
@@ -16,5 +16,4 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+Thanks to staff and StackOverflow for the helpful tips and code.
