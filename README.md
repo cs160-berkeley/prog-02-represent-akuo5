@@ -12,7 +12,12 @@ See [Represent!] (https://youtu.be/qH4K2waa8sE)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screentshots/Screen.Shot.2016-03-03.at.6.33.03.PM.png" height="200">
+<img src="screentshots/Screen.Shot.2016-03-03.at.6.33.10.PM.png height="200">
+<img src="screentshots/Screen.Shot.2016-03-03.at.6.33.20.PM.png height="200">
+<img src="screentshots/Screenshot_2016-03-03-18-29-25.png height="400">
+<img src="screentshots/Screenshot_2016-03-03-18-30-01.png height="200">
+<img src="screentshots/Screenshot_2016-03-03-18-30-10.png height="200">
 
 ## Acknowledgments
 
