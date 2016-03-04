@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:verticalSpacing="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="25dp"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="3"
+            android:layout_width="100sp"
+            android:layout_height="125sp"
+            android:src="@drawable/example_rep1"
+            android:layout_gravity="top"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:text="Senator Barbara Lee (D)"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/rep1_deets_tweet"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_width="225dp"
+
+            />
+        <ImageView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/email"
+            android:layout_gravity="bottom"
+            />
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/website_icon"
+            android:layout_gravity="bottom"
+            />
+        <Button
+            android:id="@+id/rep1"
+            android:text="detail"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:layout_column="2"
+            />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="3"
+            android:layout_width="100sp"
+            android:layout_height="125sp"
+            android:src="@drawable/example_rep2"
+            android:layout_gravity="top"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:text="Rep. Dianne Feinstein (D)"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/rep2_deets_tweet"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_width="225dp"
+
+            />
+        <ImageView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/email"
+            android:layout_gravity="bottom"
+            />
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/website_icon"
+            android:layout_gravity="bottom"
+            />
+        <Button
+            android:id="@+id/rep2"
+            android:text="detail"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:layout_column="2"
+            />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="3"
+            android:layout_width="100sp"
+            android:layout_height="125sp"
+            android:src="@drawable/example_rep3"
+            android:layout_gravity="top"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:text="Rep. Barbara Boxer (D)"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/rep3_deets_tweet"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_width="225dp"
+            />
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/email"
+            android:layout_gravity="bottom"
+            />
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_width="40dp"
+            android:layout_height="35sp"
+            android:src="@drawable/website_icon"
+            android:layout_gravity="bottom"
+            />
+        <Button
+            android:id="@+id/rep3"
+            android:text="detail"
+            android:layout_gravity="center"
+            android:layout_row="2"
+            android:layout_column="2"
+            />
+    </GridLayout>
+</LinearLayout>
+</ScrollView>

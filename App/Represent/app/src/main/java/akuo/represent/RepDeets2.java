@@ -1,0 +1,13 @@
+package akuo.represent;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class RepDeets2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_rep_deets2);
+    }
+}

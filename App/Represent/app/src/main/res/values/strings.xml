@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Represent</string>
+    <string name="title_activity_rep_list">RepList</string>
+
+    <string name="rep_deet">0</string>
+
+    <string name="rep1_deets_name">Senator Barbara Lee</string>
+    <string name="rep1_deets_party">Democrat</string>
+    <string name="rep1_deets_tweet">I worked on this program as a young mom in #Oakland. Paved the way for today\'s school breakfasts. @voxdotcom</string>
+    <string name="rep1_deets_term">January 3rd, 2017</string>
+    <string name="rep1_deets_committee">House Committee on Appropriations
+
+Subcommittee on Labor, Health and Human Services, Education and Related Agencies
+
+Subcommittee on Military Construction (Veterans Affairs)
+
+Subcommittee on State, Foreign Operations, and Related Programs
+
+House Committee on The Budget
+
+House Democratic Steering and Policy Committee</string>
+    <string name="rep1_deets_bills">(7/10/2015) H.AMDT.568 to H.R.6
+Amendment sought to strike a provision in the bill that applies to any policy riders included in the annual Labor, Health and Human Services and Agricultural appropriations bills, to the new National Institutes of Health funds, and the Federal Drug Administration funds included in H.R. 6, the 21st Century Cures Act.
+
+(6/10/2015) H.AMDT.484 to H.R.2685 Amendment sought to prohibit the use of funds for obligation or expenditure pursuant to the Authorization for Use of Military Force Against Iraq Resolution of 2002. </string>
+
+    <string name="rep2_deets_name">Rep. Dianne Feinstein</string>
+    <string name="rep2_deets_party">Democrat</string>
+    <string name="rep2_deets_tweet">Today we reflect on the contributions and leadership of US presidents throughout our nation\'s great history. Happy #PresidentsDay."</string>
+    <string name="rep2_deets_term">January 3rd, 2015</string>
+    <string name="rep2_deets_committee">fsdf</string>
+    <string name="rep2_deets_bills">sdfsd</string>
+
+    <string name="rep3_deets_name">Rep. Barbara Boxer</string>
+    <string name="rep3_deets_party">Democrat</string>
+    <string name="rep3_deets_tweet">Putting the country First means Obama nominating a Justice and the Senate doing its constitutional duty by voting on the nominee."</string>
+    <string name="rep3_deets_term">January 3rd, 2015</string>
+    <string name="rep3_deets_committee">sdfsdf</string>
+    <string name="rep3_deets_bills">sdfs</string>
+</resources>
