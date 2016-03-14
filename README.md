@@ -8,7 +8,7 @@ Angela Kuo ([akuo5@berkeley.edu](mailto:akuo5@berkeley.edu))
 
 ## Demo Video
 
-See [Represent!] (https://youtu.be/qH4K2waa8sE)
+See [Represent!] (https://youtu.be/HM_eCTVC-Og)
 
 ## Screenshots
 
