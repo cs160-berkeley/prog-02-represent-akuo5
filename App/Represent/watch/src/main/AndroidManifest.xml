@@ -3,9 +3,11 @@
     package="akuo.represent" >
 
     <uses-feature android:name="android.hardware.type.watch" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault" >
         <activity
-            android:name="akuo.represent.Main"
+            android:name=".Main"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,14 +24,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name="akuo.represent.WatchToPhoneService" />
+
+        <service android:name=".WatchToPhoneService" />
         <!-- Listeners are special services that need to be declared like below, as BIND_LISTENER -->
-        <service android:name="akuo.represent.WatchListenerService"
-            android:label="@string/app_name">
+        <service
+            android:name=".WatchListenerService"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
         </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAR-5rmGq3NYs0QefWTYt35Fa3VYvLv65A"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8fc433d3feabe70774929c4a3727acd666fa63a4" />
     </application>
 
 </manifest>

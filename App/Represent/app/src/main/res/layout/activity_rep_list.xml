@@ -11,184 +11,284 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="25dp"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@color/bg">
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="225dp"
         android:numColumns="3"
         android:verticalSpacing="5dp"
         android:horizontalSpacing="5dp"
         android:gravity="center">
-
         <ImageView
+            android:id="@+id/rep_img1"
             android:layout_column="0"
-            android:layout_columnSpan="2"
             android:layout_rowSpan="3"
             android:layout_width="100sp"
-            android:layout_height="125sp"
-            android:src="@drawable/example_rep1"
+            android:layout_height="100sp"
             android:layout_gravity="top"
             />
-
         <TextView
+            android:id="@+id/rep_name1"
             android:layout_column="2"
-            android:text="Senator Barbara Lee (D)"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
 
         <TextView
+            android:id="@+id/rep_tweet1"
             android:layout_column="2"
             android:layout_row="1"
-            android:text="@string/rep1_deets_tweet"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="16sp"
             android:layout_height="wrap_content"
             android:layout_width="225dp"
+            />
 
-            />
-        <ImageView
+        <TextView
+            android:id="@+id/rep_email1"
             android:layout_column="0"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/email"
+            android:layout_row="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_columnSpan="3"
+            android:text="hihihi@gmail.com"
             android:layout_gravity="bottom"
             />
-        <ImageView
-            android:layout_column="1"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/website_icon"
+        <TextView
+            android:id="@+id/rep_web1"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textColor="@color/white"
+            android:layout_columnSpan="3"
+            android:textStyle="bold"
+            android:text="http://www.hihihi.com"
             android:layout_gravity="bottom"
             />
+
         <Button
-            android:id="@+id/rep1"
+            android:id="@+id/rep_deets1"
             android:text="detail"
-            android:layout_gravity="center"
-            android:layout_row="2"
+            android:layout_gravity="center|bottom"
+            android:layout_row="5"
             android:layout_column="2"
             />
     </GridLayout>
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="225dp"
         android:numColumns="3"
         android:verticalSpacing="5dp"
         android:horizontalSpacing="5dp"
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/rep_img2"
             android:layout_column="0"
-            android:layout_columnSpan="2"
             android:layout_rowSpan="3"
             android:layout_width="100sp"
-            android:layout_height="125sp"
-            android:src="@drawable/example_rep2"
+            android:layout_height="100sp"
             android:layout_gravity="top"
             />
 
         <TextView
+            android:id="@+id/rep_name2"
             android:layout_column="2"
-            android:text="Rep. Dianne Feinstein (D)"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
 
         <TextView
+            android:id="@+id/rep_tweet2"
             android:layout_column="2"
             android:layout_row="1"
-            android:text="@string/rep2_deets_tweet"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="16sp"
             android:layout_height="wrap_content"
             android:layout_width="225dp"
+            />
 
-            />
-        <ImageView
+        <TextView
+            android:id="@+id/rep_email2"
             android:layout_column="0"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/email"
+            android:layout_row="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_columnSpan="3"
+            android:text="hihihi@gmail.com"
             android:layout_gravity="bottom"
             />
-        <ImageView
-            android:layout_column="1"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/website_icon"
+        <TextView
+            android:id="@+id/rep_web2"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_columnSpan="3"
+            android:text="http://www.hihihi.com"
             android:layout_gravity="bottom"
             />
+
         <Button
-            android:id="@+id/rep2"
+            android:id="@+id/rep_deets2"
             android:text="detail"
-            android:layout_gravity="center"
-            android:layout_row="2"
+            android:layout_gravity="center|bottom"
+            android:layout_row="5"
             android:layout_column="2"
             />
     </GridLayout>
 
     <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:numColumns="3"
+    android:verticalSpacing="5dp"
+    android:horizontalSpacing="5dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/rep_img3"
+        android:layout_column="0"
+        android:layout_rowSpan="3"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/rep_name3"
+        android:layout_column="2"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/rep_tweet3"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        />
+        <TextView
+            android:id="@+id/rep_email3"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_columnSpan="3"
+            android:text="hihihi@gmail.com"
+            android:layout_gravity="bottom"
+            />
+        <TextView
+            android:id="@+id/rep_web3"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_columnSpan="3"
+            android:text="http://www.hihihi.com"
+            android:layout_gravity="bottom"
+            />
+
+        <Button
+            android:id="@+id/rep_deets3"
+            android:text="detail"
+            android:layout_gravity="center|bottom"
+            android:layout_row="5"
+            android:layout_column="2"
+            />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/rep4"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="225dp"
         android:numColumns="3"
         android:verticalSpacing="5dp"
         android:horizontalSpacing="5dp"
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/rep_img4"
             android:layout_column="0"
-            android:layout_columnSpan="2"
             android:layout_rowSpan="3"
             android:layout_width="100sp"
-            android:layout_height="125sp"
-            android:src="@drawable/example_rep3"
+            android:layout_height="100sp"
             android:layout_gravity="top"
             />
 
         <TextView
+            android:id="@+id/rep_name4"
             android:layout_column="2"
-            android:text="Rep. Barbara Boxer (D)"
+            android:text=""
             android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
 
         <TextView
+            android:id="@+id/rep_tweet4"
             android:layout_column="2"
             android:layout_row="1"
-            android:text="@string/rep3_deets_tweet"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text=""
             android:textSize="16sp"
             android:layout_height="wrap_content"
             android:layout_width="225dp"
             />
 
-        <ImageView
+        <TextView
+            android:id="@+id/rep_email4"
             android:layout_column="0"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/email"
+            android:layout_row="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="hihihi@gmail.com"
+            android:layout_columnSpan="3"
             android:layout_gravity="bottom"
             />
-        <ImageView
-            android:layout_column="1"
-            android:layout_row="2"
-            android:layout_width="40dp"
-            android:layout_height="35sp"
-            android:src="@drawable/website_icon"
+        <TextView
+            android:id="@+id/rep_web4"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="http://www.hihihi.com"
+            android:layout_columnSpan="3"
             android:layout_gravity="bottom"
             />
+
         <Button
-            android:id="@+id/rep3"
+            android:id="@+id/rep_deets4"
             android:text="detail"
-            android:layout_gravity="center"
-            android:layout_row="2"
+            android:layout_gravity="center|bottom"
+            android:layout_row="5"
             android:layout_column="2"
             />
     </GridLayout>

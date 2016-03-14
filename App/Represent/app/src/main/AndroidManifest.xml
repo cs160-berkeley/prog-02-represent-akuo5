@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="akuo.represent" >
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 
     <application
         android:allowBackup="true"
@@ -11,8 +14,6 @@
         android:label="Represent!"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".Front" >
-        </activity>
         <activity android:name=".InputLocation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,10 +36,13 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".RepDeets2" >
-        </activity>
-        <activity android:name=".RepDeets3" >
-        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAR-5rmGq3NYs0QefWTYt35Fa3VYvLv65A" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8fc433d3feabe70774929c4a3727acd666fa63a4" />
     </application>
 
 </manifest>
